@@ -1,5 +1,5 @@
 <?php
-namespace Log\AjensiaLogger;
+namespace Carifer\AjensiaLogger;
 
 use Monolog\Logger;
 use Monolog\Handler\StreamHandler;
