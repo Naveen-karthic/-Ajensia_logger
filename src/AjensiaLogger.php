@@ -1,5 +1,5 @@
 <?php
-namespace Carifer\AjensiaLogger;
+namespace Carifer\Ajensia;
 
 use Monolog\Logger;
 use Monolog\Handler\StreamHandler;
@@ -37,10 +37,8 @@ class AjensiaLogger
 
     public static function configureLogger($category)
     {
-        $userId = Auth::id();
-        // (or)
-        //  $userId=1;
-
+        $userId = Auth::user()->id;
+    
         if (!isset(self::$loggers[$category])) {
             $date = now()->format('Y-m-d');
 

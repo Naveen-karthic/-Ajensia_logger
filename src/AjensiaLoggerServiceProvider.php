@@ -1,6 +1,6 @@
 <?php
 
-namespace Carifer\AjensiaLogger;
+namespace Carifer\Ajensia;
 
 use Illuminate\Support\ServiceProvider;
 

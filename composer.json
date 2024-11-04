@@ -8,9 +8,10 @@
     },
     "autoload": {
         "psr-4": {
-            "Carifer\\AjensiaLogger\\": "src/"
+            "Carifer\\Ajensia\\": "src/"
         }
     },
     "minimum-stability": "dev",
-    "prefer-stable": true
+    "prefer-stable": true,
+    "version": "dev-main"
 }
