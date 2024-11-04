@@ -1,5 +1,5 @@
 {
-    "name": "log/ajensia-logger",
+    "name": "naveen/ajensia-logger",
     "description": "A logger package for Ajensia",
     "type": "library",
     "require": {
@@ -8,7 +8,7 @@
     },
     "autoload": {
         "psr-4": {
-            "Log\\AjensiaLogger\\": "src/"
+            "Naveen\\AjensiaLogger\\": "src/"
         }
     },
     "minimum-stability": "dev",
