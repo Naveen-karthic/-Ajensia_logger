@@ -1,5 +1,5 @@
 {
-    "name": "naveen/ajensia-logger",
+    "name": "carifer/ajensia-logger",
     "description": "A logger package for Ajensia",
     "type": "library",
     "require": {
@@ -8,7 +8,7 @@
     },
     "autoload": {
         "psr-4": {
-            "Naveen\\AjensiaLogger\\": "src/"
+            "Carifer\\AjensiaLogger\\": "src/"
         }
     },
     "minimum-stability": "dev",
